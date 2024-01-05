@@ -1,5 +1,5 @@
-access_key  = "AKIASYO4YMOILSLLW752"
-secret_key  = "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"
+access_key  = 
+secret_key  = 
 vpc_cidr    = "172.19.0.0/16"
 public_cidr = "0.0.0.0/0"
 pubsub_cidr = ["172.19.0.0/20", "172.19.16.0/20"]
