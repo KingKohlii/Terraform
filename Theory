@@ -1,0 +1,50 @@
+# Terraform
+Terraform
+Terraform allows you to configure your infrastructure over multiple cloud providers like AWS, Azure, etc. by using the same workflow. This makes management and orchestration for large, multi-cloud infrastructures simpler.
+
+
+Why we use Terraform in Devops.
+
+Terraform makes it easy to automate infrastructure provisioning on any cloud or data center. We can easily deploy infrasture by using Terraform.
+In Terraform teams can collaborate and manage Terraform workflows using Terraform Cloud.
+Terraform is also useful for multicloud provisioning with Terraform, development teams can deploy serverless function in AWS , manage directory resources in Azure and provision load balancer in Google cloud.
+Terraform is a platform agnostic.
+Platform agnostic means we can use it with any cloud service provider.
+
+
+SOME TERRAFORM COMMANDS
+Terraform init
+
+Terraform plan
+
+Terraform apply
+
+Terraform validate
+
+Terraform apply –refresh-only
+
+Terraform destroy
+
+Terraform show
+
+Terraform state list
+
+Terraform state show resource name
+
+Variables
+Input Variable – Input variables declare like this-
+                 Variable “Variable Name” {
+                    Default = 
+                    Description = 
+                    Type = 
+                 }
+        If we already have some things inside AWS and which we want inside Terraform then use Data block.
+Or
+For taking External data inside Terraform we use data block.
+
+Provisioners
+1)	Remote Execute – Terraform is on our laptop and servers is on AWS so we are handling servers through laptop means remote execute.(Here in Remote Execute we launch servers in AWS using Terraform)
+2)	Local Execute – Means on which server we install Terraform there only we handling servers.
+
+
+ 
